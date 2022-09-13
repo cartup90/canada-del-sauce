@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
 
-/*
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -23,7 +19,10 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -158,7 +157,7 @@ input, select, textarea {
 		transition: border-bottom-color 0.25s ease-in-out;
 		color: inherit;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(0, 0, 0, 0.25);
+		border-bottom: 1px rgba(0, 0, 0, 0.25);
 	}
 
 		a:hover {
@@ -2140,7 +2139,89 @@ input, select, textarea {
 	.dark .feature-icon:before, .dark .feature-icon:after {
 		background: rgba(255, 255, 255, 0.5);
 	}
+	
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*CATRIEL CATRIEL CATRIEL */
+	#barnav {
+		list-style: none;
+		position:absolute;
+		top: 1em;
+		right: 5px;
+	}
+	
+	
+	#barnav li {
+		display: inline;
+	}
+
+	#barnav li a {
+		color: #000;
+		
+		margin: 1em;
+
+	}
+	#barnav li a:hover {
+		
+		border-radius: 25%;
+		border-color: rgb(123, 123, 123);
+		border-style: groove;
+		margin: 1em;
+		transition: 0.3s;
+		
+		
+	}
+	#barnav li a:active {
+		color: rgb(123, 123, 123);
+		border-radius: 25%;
+		border-color: rgb(123, 123, 123);
+		border-style: groove;
+		margin: 1em;
+	}
+	#logocañada {
+		height: 20em; 
+		width: 20em; 
+		margin-top: -50px;
+	}
+	
+	#imagen1,#imagen2,#imagen3 {
+		width: 10em;
+		height: 10em;
+		object-fit: cover;
+	}
+	
+	#pic1,#pic2,#pic3,#pic4,#pic5,#pic6 {
+		width: 19em;
+		height: 12em;
+		object-fit: cover;
+
+	}
+	
+
+	
+	
 /* Icons */
 
 	.icon {
