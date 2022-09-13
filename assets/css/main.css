@@ -2170,6 +2170,7 @@ input, select, textarea {
 		position:absolute;
 		top: 1em;
 		right: 5px;
+		max-width:10%;
 	}
 	
 	
@@ -2185,11 +2186,7 @@ input, select, textarea {
 	}
 	#barnav li a:hover {
 		
-		border-radius: 25%;
-		border-color: rgb(123, 123, 123);
-		border-style: groove;
-		margin: 1em;
-		transition: 0.3s;
+		font-weigth: bold;
 		
 		
 	}
